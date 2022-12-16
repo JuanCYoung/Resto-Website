@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand h1{
+    width: 100px;
+    height: 40px;
+    font-size: 45px;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-item a{
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    text-align: center;
+}
+
+
+.collapse ul{
+    text-align: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0px 5px;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    /* text-align: center; */
+}
+
+/* banner */
+/* #banner-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(asset/6.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+
+.banner-Text{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.banner-Text h1{
+    font-size: 96px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.banner-Text p{
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+    text-align: center;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.banner-btn a:hover{
+    color: black;
+}
+
+
+.banner-btn-2{
+    margin: 0 auto 70px;
+    text-align: center;
+}
+.banner-btn-2 a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: black;
+    border: .5px solid black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn-2 a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn-2 a:hover span{
+    width: 100%;
+}
+
+.banner-btn-2 a:hover{
+    color: white;
+}
+
+
+/* Our Category */
+
+#category{
+    width: 100%;
+    padding: 70px 0;
+    transition: 1s;
+}
+
+
+.title-text{
+    text-align: center;
+    padding-bottom: 70 px;
+}
+
+.title-text h1{
+    font-size: 50px;
+    margin-bottom: 70px;    
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 10%;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    transition: transfrom 0.5s;
+}
+
+.c1{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/1.jpg);
+}
+.c2{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/5.jpg);
+}
+.c3{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/6.jpg);
+}
+.c4{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/4.jpg);
+}
+.c5{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/5.jpg);
+}
+.c6{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/6.jpg);
+}
+.c7{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(asset/6.jpg);
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+h5{
+    color: rgb(255, 255, 255);
+}
+.card a{
+    text-decoration: none;
+}
+
+/* Categhori Makanan aknw */
+
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* Nasiii */
+.row{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 2px 2px;
+}
+
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.offer-img{
+    width: 100%;
+    height: 400px;
+}
+
+.col-4 img{
+    width: 200px;
+    height: 200px;
+}
+
+.rating .fa{
+    color: orange;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+/* offer and Buyy */
+.offer{
+    background: radial-gradient(rgb(59, 59, 59),#5b4a4a);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+/* footer */
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer-col-2{
+    flex-basis: 50%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+/* Nasi Product */
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+    margin-bottom: -40px;
+}
+
+select{
+    border: 1px solid #ff52;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.test{
+    margin-top: -50px;
+}
+
+/* single product */
+.single-product{
+    margin-top: 80px;
+
+}
+.single-product col-2 img{
+    padding: 0;
+}
+.single-product col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin-inline-end: 20px 0;
+    font: 22px;
+    font-weight: bold;
+}
+
+
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus{
+    outline: none;
+}
+
+.single-product .fa{
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col img{
+    width: 180px;
+    height: 120px;
+    flex-basis: 22%;
+    cursor: pointer;
+}
+
+/* cart iitme */
+.cart-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 100px;
+    border-collapse: collapse;
+}
+
+/* buynow.html */
+#single-prod{
+    padding-bottom: 120px;
+}

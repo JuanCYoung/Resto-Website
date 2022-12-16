@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DigiRestaurant</title>        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+<body>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- NavBar -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h1 style="color:white" >RES<span style="color:greenyellow">TO</span></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MENU
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html#category">Category</a></li>
+                                <li><a class="dropdown-item" href="foodlistNasi.html">Nasi</a></li>
+                                <li><a class="dropdown-item" href="index.html#Mie">Mie</a></li>
+                            </ul> 
+                        </li>                  
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#discount">DISCOUNT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-shopping-cart" aria-hidden="true" style="color: white; font-size: 30px; padding-right:40px"></i>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Banner -->
+    <section id="banner-section">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="
+                    top: 0;
+                    height: 100vh;
+                    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.85)),url(asset/6.jpg);
+                    background-size: cover;
+                    background-position: center;">  
+                    <h1 style="color:white;font-size: 96px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;
+                    padding-top: 250px;" >RES<span style="color:greenyellow">TO</span></h1>
+                    <p style="font-size: 36px;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: white;text-align: center;">The First Digital Restaurant in Indonesia</p> 
+                    <div class="banner-btn">
+                        <a href="index.html#category"><span></span>Menu</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="
+                    top: 0;
+                    height: 100vh;
+                    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.85)),url(asset/5.jpg);
+                    background-size: cover;
+                    background-position: center;
+                ">
+                    <h1 style="color:white;font-size: 96px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;
+                    padding-top: 250px;" >RES<span style="color:greenyellow">TO</span></h1>
+                    <p style="font-size: 36px;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: white;text-align: center;">We Are The Future of Digital Restaurant</p> 
+                    <div class="banner-btn">
+                        <a href="index.html#category"><span></span>About Us</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="
+                    top: 0;
+                    height: 100vh;
+                    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(asset/4.jpg);
+                    background-size: cover;
+                    background-position: center;
+                ">  
+                    <h1 style="color:white;font-size: 96px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;
+                    padding-top: 250px;" >RES<span style="color:greenyellow">TO</span></h1>
+                    <p style="font-size: 36px;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: white;text-align: center;">You Can Contact Us at</p> 
+                    <div class="banner-btn">
+                        <a href="index.html#category"><span></span>Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Our Category -->
+    <section id="category">
+        <div class="title-text">
+            <h1>Our Category</h1>
+        </div>
+        <div class="col-md text-center">
+            <div class="card c1">
+                <a href="index.html#Nasi" class="food-category">
+                    <h5>Nasi</h5>
+                </a>                
+            </div>
+            <div class="card c2">
+                <a href="index.html#Mie">
+                    <h5>Mie</h5>
+                </a>      
+            </div>
+            <div class="card c3">
+                <a href="#">
+                    <h5>Sayuran</h5>
+                </a>      
+            </div>
+            <div class="card c4">
+                <a href="#">
+                    <h5>Seafood</h5>
+                </a>      
+            </div>
+            <div class="card c5">
+                <a href="#">
+                    <h5>Dessert</h5>
+                </a>      
+            </div>
+            <div class="card c6">
+                <a href="#">
+                    <h5>Minuman</h5>
+                </a>      
+            </div>
+            <div class="card c7">
+                <a href="#">
+                    <h5>Daging</h5>
+                </a>      
+            </div>
+        </div>
+    </section>
+    
+    <!-- Masakan Indonesia -->
+    <section id="Nasi">
+        <div class="small-container">
+            <div class="title-text">
+                <h1>Nasi</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="asset/Nasi/1.jpg">
+                    <h4>Nasi Putih</h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Nasi/2.jpg">
+                    <h4>Nasi Merah</h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Nasi/3.jpg">
+                    <h4>Nasi Goreng</h4>
+                    <small>Best Seller</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Nasi/4.jpg">
+                    <h4><b>Nasi</b></h4>
+                    <small>Most Loved</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>  
+        <div class="banner-btn-2">
+            <a href="foodlistNasi.html"><span></span>Show More</a>
+        </div>          
+    </section>
+
+    <!-- Mie -->
+    <section id="Mie">
+        <div class="small-container">
+            <div class="title-text">
+                <h1>Mie</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="asset/Mie/1.jpg">
+                    <h4>Mie Instant</h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Mie/2.jpg">
+                    <h4>Mie Kuah</h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Mie/3.jpg">
+                    <h4>Mie Goreng</h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+                <div class="col-4">
+                    <img src="asset/Mie/4.jpg">
+                    <h4><b>Mieee</b></h4>
+                    <small>Recommended</small>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rp. 15.000,00</p>
+                    <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>   
+        <div class="banner-btn-2">
+            <a href="index.html#category"><span></span>Show More</a>
+        </div>            
+    </section>
+<!-- offer -->
+    <section id="discount">
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="asset/Daging/iman-zaker-Et1rVF1YJe8-unsplash.jpg" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p style="color: white;"><b>Montly Discount!</b></p>
+                        <h1 style="color: white;">Broken Steak</h1>
+                        <h2 style="color: white;">Rp. 150.000,00</h2>
+                        <small style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua</small>
+                        <a href="buynow.html" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-2">
+                        <h3>Social Media</h3>
+                        <p>Instagram : @restoku</p>
+                        <p>Twitter : @restoku</p>
+                        <p>Telegram : @restoku</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Contact</h3>
+                        <p>No Telp : 01508123750</p>
+                        <p>Email : restoku@res.ac.id</p>
+                        <p>Website : Restoku.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+</body>
+</html>
